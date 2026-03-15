@@ -10,7 +10,7 @@ export default function WorkflowChange() {
 
         {/* 傳統流程 */}
         <div className="p-8 bg-gray-800/50 rounded-lg border border-gray-700">
-          <h3 className="text-2xl font-semibold text-gray-300 mb-6">📊 傳統的軟體開發流程</h3>
+          <h3 className="text-2xl font-semibold text-gray-300 mb-6">傳統的軟體開發流程</h3>
           <div className="space-y-4">
             <div className="flex items-center gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center text-blue-400 font-bold">
@@ -53,7 +53,7 @@ export default function WorkflowChange() {
           <div className="absolute inset-0 bg-gradient-to-r from-figma-purple/10 to-figma-blue/10 blur-3xl"></div>
           <div className="relative p-8 bg-gray-800/50 rounded-lg border border-figma-purple/50">
             <h3 className="text-2xl font-semibold text-gradient mb-6">
-              ⚡ 開發速度 10-20 倍提升
+              開發速度 10-20 倍提升
             </h3>
             <div className="space-y-4 text-gray-300">
               <p className="text-lg">

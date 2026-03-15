@@ -11,7 +11,7 @@ export default function FigmaFuture() {
         {/* 核心論點 */}
         <div className="p-8 bg-gradient-to-br from-purple-900/30 to-blue-900/30 rounded-lg border border-purple-700/50">
           <h3 className="text-2xl font-semibold mb-4 text-gray-200">
-            💡 核心洞察：回歸 Lo-fi Wireframe
+            核心洞察：回歸 Lo-fi Wireframe
           </h3>
           <div className="space-y-4 text-gray-300 text-lg">
             <p>
@@ -34,7 +34,7 @@ export default function FigmaFuture() {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-6 bg-gray-800/50 rounded-lg border border-gray-700">
             <h4 className="text-xl font-semibold text-purple-400 mb-3">
-              🎙️ Jenny Wen 的觀點
+              Jenny Wen 的觀點
             </h4>
             <p className="text-gray-300">
               寫程式是一個<strong className="text-purple-300">線性的過程</strong>，
@@ -49,7 +49,7 @@ export default function FigmaFuture() {
 
           <div className="p-6 bg-gray-800/50 rounded-lg border border-gray-700">
             <h4 className="text-xl font-semibold text-blue-400 mb-3">
-              💻 微小任務的處理方式
+              微小任務的處理方式
             </h4>
             <p className="text-gray-300">
               而設計師在現在以及未來，如果有任何<strong className="text-blue-300">微小且明確的任務</strong>需要處理時，
@@ -62,7 +62,7 @@ export default function FigmaFuture() {
         {/* Figma 的角色轉變 */}
         <div className="mt-8 p-8 bg-gradient-to-r from-yellow-900/20 to-orange-900/20 rounded-lg border border-yellow-800/50">
           <h3 className="text-2xl font-semibold mb-4 text-yellow-400">
-            🎯 Figma 的新定位
+            Figma 的新定位
           </h3>
           <div className="space-y-4 text-gray-300">
             <p className="text-lg">

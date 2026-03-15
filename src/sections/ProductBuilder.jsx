@@ -15,7 +15,7 @@ export default function ProductBuilder() {
 
         {/* Product Builder 的起源 */}
         <div className="p-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-lg border border-gray-700">
-          <h3 className="text-2xl font-semibold mb-4 text-gray-200">📖 Product Builder 的出現</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-gray-200">Product Builder 的出現</h3>
           <div className="space-y-4 text-gray-300">
             <p>
               <strong className="text-yellow-400">2005 年</strong> Y Combinator 推動的創業文化，
@@ -38,7 +38,7 @@ export default function ProductBuilder() {
         {/* PM 的新能力 */}
         <div className="grid md:grid-cols-2 gap-6">
           <div className="p-6 bg-blue-900/20 rounded-lg border border-blue-800/50">
-            <h4 className="text-xl font-semibold text-blue-400 mb-3">👨‍💼 PM 的轉變</h4>
+            <h4 className="text-xl font-semibold text-blue-400 mb-3">PM 的轉變</h4>
             <p className="text-gray-300">
               針對問題提出的解法，可以依產品建構好的設計規範等，
               <strong className="text-blue-300">直接於程式碼呈現解法</strong>。
@@ -46,7 +46,7 @@ export default function ProductBuilder() {
           </div>
 
           <div className="p-6 bg-purple-900/20 rounded-lg border border-purple-800/50">
-            <h4 className="text-xl font-semibold text-purple-400 mb-3">🎨 設計師的轉變</h4>
+            <h4 className="text-xl font-semibold text-purple-400 mb-3">設計師的轉變</h4>
             <p className="text-gray-300">
               針對產品，有能力可以<strong className="text-purple-300">直接介入該如何調整</strong>互動上的體驗、
               色號的改變等，以提供用戶擁有更佳的體驗。

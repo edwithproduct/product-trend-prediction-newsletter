@@ -12,7 +12,7 @@ export default function VibeCoding() {
 
         {/* Vibe Coding 工具列表 */}
         <div>
-          <h3 className="text-2xl font-semibold mb-6 text-gray-300">🚀 新興的 Vibe Coding 工具</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-gray-300">新興的 Vibe Coding 工具</h3>
           <div className="flex flex-wrap gap-3">
             {tools.map((tool, index) => (
               <div
@@ -44,7 +44,7 @@ export default function VibeCoding() {
 
         {/* 防禦性策略 */}
         <div className="p-8 bg-yellow-900/20 rounded-lg border border-yellow-800/50">
-          <h3 className="text-2xl font-semibold mb-4 text-yellow-400">🛡️ 這更像是一個防禦性策略</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-yellow-400">這更像是一個防禦性策略</h3>
           <div className="space-y-4 text-gray-300">
             <p>
               <strong>為什麼 Figma 需要提供這個功能呢？</strong>
@@ -75,7 +75,7 @@ export default function VibeCoding() {
         {/* Figma 的優勢 */}
         <div className="p-8 bg-green-900/20 rounded-lg border border-green-800/50">
           <h3 className="text-2xl font-semibold mb-4 text-green-400">
-            ✅ Figma 在 Vibe Coding 時代原本保有的優勢
+            Figma 在 Vibe Coding 時代原本保有的優勢
           </h3>
           <p className="text-gray-300 text-lg">
             那就是既有的客戶在 Figma 建立的設計，可以提取設計並在 Figma Make 打造原型，

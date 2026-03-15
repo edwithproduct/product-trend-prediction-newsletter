@@ -38,7 +38,7 @@ export default function PreAIFigma() {
 
         {/* 優點部分 */}
         <div className="space-y-6">
-          <h3 className="text-2xl font-semibold text-figma-purple">✨ Figma 的優勢</h3>
+          <h3 className="text-2xl font-semibold text-figma-purple">Figma 的優勢</h3>
           <div className="grid gap-4">
             {advantages.map((advantage, index) => (
               <div
@@ -58,7 +58,7 @@ export default function PreAIFigma() {
 
         {/* 批評部分 */}
         <div className="mt-12 p-8 bg-red-900/20 rounded-lg border border-red-800/50">
-          <h3 className="text-2xl font-semibold text-red-400 mb-4">⚠️ 反對的聲音</h3>
+          <h3 className="text-2xl font-semibold text-red-400 mb-4">反對的聲音</h3>
           <div className="space-y-4 text-gray-300">
             <p>
               但在那個時候，我看到了一篇有趣的留言是關於 Figma 可能會<strong className="text-red-400">延長你工作時長 20 倍</strong>的論點。

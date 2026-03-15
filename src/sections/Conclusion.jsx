@@ -11,7 +11,7 @@ export default function Conclusion() {
         {/* 核心問題 */}
         <div className="p-8 bg-red-900/20 rounded-lg border border-red-800/50">
           <h3 className="text-2xl font-semibold mb-4 text-red-400">
-            ❓ 假設 Figma 剩下的用途更接近於製作 lo-fi 線稿時...
+            假設 Figma 剩下的用途更接近於製作 lo-fi 線稿時...
           </h3>
           <p className="text-xl text-gray-300">
             那是否會逐漸消失？
@@ -22,7 +22,7 @@ export default function Conclusion() {
         <div className="space-y-6">
           <div className="p-8 bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-lg border border-gray-700">
             <h3 className="text-2xl font-semibold mb-4 text-yellow-400">
-              💭 我的看法
+              我的看法
             </h3>
             <p className="text-lg text-gray-300 mb-4">
               我認為是<strong className="text-yellow-300">極有可能的</strong>。
@@ -35,7 +35,7 @@ export default function Conclusion() {
           {/* 但是... */}
           <div className="p-8 bg-green-900/20 rounded-lg border border-green-800/50">
             <h3 className="text-2xl font-semibold mb-4 text-green-400">
-              ✨ 但我也看到了新的可能性
+              但我也看到了新的可能性
             </h3>
             <div className="space-y-4 text-gray-300">
               <p>
@@ -61,7 +61,7 @@ export default function Conclusion() {
         {/* 總結 */}
         <div className="mt-12 p-10 bg-gradient-to-r from-figma-purple/20 via-transparent to-figma-blue/20 rounded-lg border border-gray-700">
           <h3 className="text-3xl font-bold text-center mb-6">
-            🎯 <span className="text-gradient">總結</span>
+            <span className="text-gradient">總結</span>
           </h3>
           <div className="space-y-4 text-center text-gray-300 text-lg max-w-3xl mx-auto">
             <p>

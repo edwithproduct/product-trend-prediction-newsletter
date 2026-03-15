@@ -12,7 +12,7 @@ export default function Section({ children, className = '', delay = 0 }) {
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.8, delay, ease: "easeOut" }}
-      className={`min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 ${className}`}
+      className={`min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 py-20 md:py-32 ${className}`}
     >
       <div className="max-w-4xl w-full">
         {children}
