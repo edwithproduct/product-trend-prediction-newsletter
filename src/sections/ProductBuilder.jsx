@@ -55,7 +55,7 @@ export default function ProductBuilder() {
         </div>
 
         {/* 核心問題 */}
-        <div className="mt-12">
+        <div className="mt-12 p-8 rounded-2xl border-2 border-gray-300">
           <h3 className="text-3xl font-bold text-center text-gray-900">
             那面對這樣的改變，Figma 又該何去何從？
           </h3>

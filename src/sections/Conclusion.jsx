@@ -59,7 +59,7 @@ export default function Conclusion() {
         </div>
 
         {/* 總結 */}
-        <div className="mt-12 space-y-6">
+        <div className="mt-12 p-10 rounded-2xl border-2 border-gray-300">
           <h3 className="text-3xl font-bold text-center text-gray-900 mb-6">
             總結
           </h3>
