@@ -25,53 +25,66 @@ export default function PreAIFigma() {
   ];
 
   return (
-    <Section>
+    <Section className="bg-white">
       <div className="space-y-12">
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
             Figma 在過去的優劣
           </h2>
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-600 text-lg">
             先回到 AI 還沒有大舉入侵 Coding 的年代，大家會怎麼形容 Figma 的好？
           </p>
         </div>
 
         {/* 優點部分 */}
         <div className="space-y-6">
-          <h3 className="text-2xl font-semibold text-figma-purple">Figma 的優勢</h3>
-          <div className="grid gap-4">
+          <h3 className="text-2xl font-semibold text-gray-900">Figma 的優勢</h3>
+          <div className="space-y-4">
             {advantages.map((advantage, index) => (
-              <div
-                key={index}
-                className="p-6 bg-gray-800/50 rounded-lg border border-gray-700 hover:border-figma-purple/50 transition-colors"
-              >
-                <h4 className="text-lg font-semibold text-gray-200 mb-2">
-                  {index + 1}. {advantage.title}
+              <div key={index} className="space-y-1">
+                <h4 className="text-lg font-semibold text-amber-900">
+                  {advantage.title}
                 </h4>
-                <p className="text-gray-400">
+                <p className="text-gray-700 leading-relaxed">
                   {advantage.description}
                 </p>
+                {index === 0 && (
+                  <div className="mt-4">
+                    <p className="text-sm text-gray-600 mb-3">範例影片：Figma 可以用類似 React 元件的方式建立設計</p>
+                    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                      <iframe
+                        className="absolute top-0 left-0 w-full h-full rounded-lg"
+                        src="https://www.youtube.com/embed/JpizbChgUrc?si=lX29tieH_oT61JyS&amp;clip=UgkxdGuc1m-A0GOQTDAwmeh4HiXXODYPv4no&amp;clipt=EOOXCRjM_wo"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>
         </div>
 
         {/* 批評部分 */}
-        <div className="mt-12 p-8 bg-red-900/20 rounded-lg border border-red-800/50">
-          <h3 className="text-2xl font-semibold text-red-400 mb-4">反對的聲音</h3>
-          <div className="space-y-4 text-gray-300">
+        <div className="mt-12 space-y-4">
+          <h3 className="text-2xl font-semibold text-gray-900 mb-4">反對的聲音</h3>
+          <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              但在那個時候，我看到了一篇有趣的留言是關於 Figma 可能會<strong className="text-red-400">延長你工作時長 20 倍</strong>的論點。
+              但在那個時候，我看到了一篇有趣的留言是關於 Figma 可能會<strong className="text-amber-900">延長你工作時長 20 倍</strong>的論點。
             </p>
             <p>
-              這是一名來自 Perpetual Education 的 Design Director <strong>Derek Thomas Wood</strong> 的言論，
-              他認為 Figma 會讓團隊召開大量不必要但看似重要的會議。
+              這是一名來自 Perpetual Education 的 Design Director <strong className="text-amber-900">Derek Thomas Wood</strong> 的言論，
+              他認為 <strong className="text-amber-900">Figma 會讓團隊召開大量不必要但看似重要的會議</strong>。
             </p>
             <p>
               此外，Figma 的內容到了真實建立產品時，仍有一些落差，
               在這過程中會存在各種爭執，並且你可能無法執行真正的用戶測試。
             </p>
-            <p className="italic text-gray-400">
+            <p className="italic text-gray-600">
               他反而認為應該用紙筆溝通，而網站的建立終究來自程式碼。
             </p>
           </div>

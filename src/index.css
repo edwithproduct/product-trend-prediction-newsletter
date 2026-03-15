@@ -3,8 +3,8 @@
 
 @layer base {
   body {
-    background-color: rgb(3 7 18);
-    color: rgb(243 244 246);
+    background-color: rgb(255 255 255);
+    color: rgb(17 24 39);
     font-family: 'Noto Sans TC', 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -12,14 +12,5 @@
 
   html {
     scroll-behavior: smooth;
-  }
-}
-
-@layer utilities {
-  .text-gradient {
-    background-image: linear-gradient(to right, #7B61FF, #0ACF83);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 }

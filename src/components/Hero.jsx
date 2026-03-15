@@ -2,10 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden">
-      {/* 背景漸層效果 */}
-      <div className="absolute inset-0 bg-gradient-to-br from-figma-purple/20 via-transparent to-figma-blue/20 blur-3xl" />
-
+    <section className="min-h-screen flex items-center justify-center px-6 md:px-12 lg:px-24 relative overflow-hidden bg-white">
       <div className="max-w-5xl w-full relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -14,17 +11,16 @@ export default function Hero() {
           className="text-center space-y-8"
         >
           <motion.h1
-            className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight text-gray-900"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
           >
-            <span className="text-gradient">AI</span> 如何改變{' '}
-            <span className="text-gradient">Figma</span>？
+            AI 如何改變 Figma？
           </motion.h1>
 
           <motion.p
-            className="text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
